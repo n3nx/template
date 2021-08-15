@@ -1,6 +1,6 @@
 <!-- Project Metadata -->
 <!-- project_tags: template, n3n -->
-<!-- project_featured: true -->
+<!-- project_featured: false -->
 
 # 🐺 foss-template
 
@@ -18,10 +18,11 @@ Template for creating new open source repositories that follow the N3N open sour
 ## TEMPLATE INSTRUCTIONS
 
 1. Create a new repository under N3NX using this template.
-1. **Title:** Change the first line of this README to the name of your project, and replace the sunflower with an emoji that represents your project. 🚨 Your emoji selection is critical.
-1. **Badges:** In the badges section above, change the repo name in each URL. If you are creating something other than a Rust crate, remove the crates.io and docs badges (and feel free to add more appropriate ones for your language).
-1. **CI:** In `./github/workflows/` rename `rust-ci.yml` (or the appropriate config for your language) to `ci.yml`. And go over it and adapt it to work for your project
-1. **Cleanup:** Remove this section of the README and any unused files (such as configs for other languages) from the repo.
+2. **Metadata:** This README file contains tags metadata for indexing. Before starting any project, edit this readme and only modify the values present in `project_tags` and `project_featured` fields according to the working project.
+3. **Title:** Change the first line of this README to the name of your project, and replace the wolf with an emoji that represents your project. 🚨 Your emoji selection is critical.
+4. **Badges:** In the badges section above, change the repo name in each URL. If you are creating something other than a Rust crate, remove the crates.io and docs badges (and feel free to add more appropriate ones for your language).
+5. **CI:** In `./github/workflows/` rename `rust-ci.yml` (or the appropriate config for your language) to `ci.yml`. And go over it and adapt it to work for your project
+6. **Cleanup:** Remove this section of the README and any unused files (such as configs for other languages) from the repo.
 
 ## Contribution
 
