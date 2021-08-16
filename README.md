@@ -2,16 +2,16 @@
 <!-- project_tags: template, n3n -->
 <!-- project_featured: false -->
 
-# 🐺 foss-template
+# 🐺 template
 
 <!--- FIXME: Update crate, repo and CI workflow names here! Remove any that are not relevant --->
 
-[![N3NX](https://img.shields.io/badge/n3n-org-blueviolet.svg)](https://n3n.org)
-[![N3NX](https://img.shields.io/badge/discord-n3n-%237289da.svg?logo=discord)](https://discord.gg/QNDkGDTs)
+[![N3NX](https://img.shields.io/badge/n3n-org-%23666bff.svg)](https://n3n.org)
+[![N3NX](https://img.shields.io/badge/discord-n3n-%237289da.svg?logo=discord)](https://discord.gg/kTWsyk5eV6)
 [![Crates.io](https://img.shields.io/crates/v/opencl-heads.svg)](https://crates.io/crates/opencl-heads)
 [![Docs](https://docs.rs/opencl-heads/badge.svg)](https://docs.rs/opencl-heads)
 [![dependency status](https://deps.rs/repo/github/n3nx/opencl-rs/status.svg)](https://deps.rs/repo/github/n3nx/opencl-rs)
-[![Build status](https://github.com/N3N/opencl-rs/workflows/CI/badge.svg)](https://github.com/N3N/opencl-rs/actions)
+[![Build status](https://github.com/n3nx/opencl-rs/workflows/CI/badge.svg)](https://github.com/n3nx/opencl-rs/actions)
 
 Template for creating new open source repositories that follow the N3N open source guidelines.
 
@@ -33,7 +33,7 @@ We welcome community contributions to this project.
 Please read our [Contributor Guide](CONTRIBUTING.md) for more information on how to get started.
 Please also read our [Contributor Terms](CONTRIBUTING.md#contributor-terms) before you make any contributions.
 
-Any contribution intentionally submitted for inclusion in a N3N project or a Knytx Labs project, shall comply with the Rust standard licensing model (MIT OR Apache 2.0) and therefore be dual licensed as described below, without any additional terms or conditions:
+Any contribution intentionally submitted for inclusion in a N3N project or a Knytx Labs open source project, shall comply with the Rust standard licensing model (MIT OR Apache 2.0) and therefore be dual licensed as described below, without any additional terms or conditions:
 
 ### License
 
