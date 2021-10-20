@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.1.0] - 2021-10-20
 
+[0.1.0]: /releases/tag/v0.1.0
+
 ### Bug Fixes
 
 - *readme:* Correct broken links and mistyped names ([1589685](15896853147e0ac334e975a283e3aa040d0dbe87))
