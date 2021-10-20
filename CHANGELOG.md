@@ -5,40 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [0.1.0] - 2021-10-20
 
-## [0.1.1] - 2019-09-03
+### Bug Fixes
 
-### Added
+- *readme:* Correct broken links and mistyped names ([1589685](15896853147e0ac334e975a283e3aa040d0dbe87))
 
-- New features go here in a bullet list
+### Documentation
 
-### Changed
+- *readme:* Add metadata details and set `project_featured` to false ([fbed764](fbed764f9a356950a3c308ef56d5adef3252b036))
 
-- Changes to existing functionality go here in a bullet list
+### Features
 
-### Deprecated
+- *file:* Add cliff.toml for git-cliff changelog generator ([8c53e50](8c53e50fe7490cadbc7a09f8e6e7e7be039d92dd))
 
-- Mark features soon-to-be removed in a bullet list
-
-### Removed
-
-- Features that have been removed in a bullet list
-
-### Fixed
-
-- Bug fixes in a bullet list
-
-### Security
-
-- Changes/fixes related to security vulnerabilities in a bullet list
-
-## [0.1.0] - 2019-09-02
-
-### Added
-
-- Initial add of the thing
-
-[unreleased]: https://github.com/n3nx/$REPO_NAME/compare/0.1.1...HEAD
-[0.1.1]: https://github.com/n3nx/$REPO_NAME/compare/0.1.0...0.1.1
-[0.1.0]: https://github.com/n3nx/$REPO_NAME/releases/tag/0.1.0
+<!-- CHANGELOG SPLIT MARKER -->
