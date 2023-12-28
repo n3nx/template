@@ -15,6 +15,14 @@
 
 Template for creating new open source repositories that follow the N3N open source guidelines.
 
+## Table of Contents
+
+- [🐺 template](#-template)
+  - [Table of Contents](#table-of-contents)
+  - [TEMPLATE INSTRUCTIONS](#template-instructions)
+  - [Contribution](#contribution)
+    - [License](#license)
+
 ## TEMPLATE INSTRUCTIONS
 
 1. Create a new repository under N3NX using this template.
@@ -28,20 +36,17 @@ Template for creating new open source repositories that follow the N3N open sour
 
 [![N3N Contributor Guidelines](https://img.shields.io/badge/N3N%20Guidelines-v1.0-ff69b4.svg)](./CODE_OF_CONDUCT.md)
 
-We welcome community contributions to this project.
+We enthusiastically invite community contributions to enhance this project. Please take a moment to review our [Contributor Terms](CONTRIBUTING.md#contributor-terms) before making any contributions.
 
-Please read our [Contributor Guide](CONTRIBUTING.md) for more information on how to get started.
-Please also read our [Contributor Terms](CONTRIBUTING.md#contributor-terms) before you make any contributions.
+Any contribution intentionally submitted for inclusion in any N3N project or Knytx Labs open-source project, contributors agree to adhere to the Rust standard licensing model (MIT OR Apache 2.0). Conseqently, all contributions are dual licensed as described below, without any additional terms or conditions.
 
-Any contribution intentionally submitted for inclusion in a N3N project or a Knytx Labs open source project, shall comply with the Rust standard licensing model (MIT OR Apache 2.0) and therefore be dual licensed as described below, without any additional terms or conditions:
+For more information on contributing to this project, please consult the [Contributor Guide](CONTRIBUTING.md).
 
 ### License
 
-This contribution is dual licensed under EITHER OF
+This project is dual-licensed under EITHER OF:
 
-- Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) or <http://www.apache.org/licenses/LICENSE-2.0>)
-- MIT license ([LICENSE-MIT](LICENSE-MIT) or <http://opensource.org/licenses/MIT>)
+- [Apache License, Version 2.0](LICENSE-APACHE) ([View License](http://www.apache.org/licenses/LICENSE-2.0>))
+- [MIT License](LICENSE-MIT) ([View License](http://opensource.org/licenses/MIT))
 
-at your option.
-
-For clarity, "your" refers to the N3N contributors, NCRYPTO Labs Private Limited or any other licensee/user of the contribution.
+**at your discretion.**

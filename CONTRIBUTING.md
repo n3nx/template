@@ -1,42 +1,42 @@
 # The N3N Division Contributor Guidelines
 
-Hello Friend,
+Greetings,
 
-You are here to contribute to this project right?
+Are you ready to contribute to our project?
 
-Welcome aboard! This project is created by the team at the NCRYPTO Opensource Privacy and Security Norms division informally known as the [N3N](https://n3n.org). We're glad you're interested in contributing! We welcome contributions from people of all backgrounds who are interested in making great software with us.
+We're excited to have you on board! This project is led by the team at the NCRYPTO Opensource Privacy and Security Norms division, affectionately known as [N3N](https://n3n.org). Your interest in contributing is highly appreciated, and we encourage individuals from all backgrounds who share a passion for creating exceptional software.
 
-At N3N, our motto is Privacy, Independency, Transparency and Security. We envision to empower everyone to maintain their own privacy and security in a trivial way to live a hygienic digital life. To do this, we're exploring and pushing the boundaries of new technologies, and sharing our learnings with the open source community. By being transparent about it, enables us to make you more independent in a way that preserves your rights to privacy while establishing your security on the digital space.
+N3N is driven by the principles of Privacy, Independency, Transparency, and Security. Our mission is to empower everyone to effortlessly uphold their privacy and security for a cleaner digital life. We achieve this by pushing the boundaries of technology and openly sharing our insights with the broader open-source community. Our commitment to transparency aims to make you more independent, safeguarding your rights to privacy and digital security.
 
-If you have ideas for collaboration, email us at [we@n3n.org](mailto:we@n3n.org).
+If you have collaboration ideas, feel free to reach out to us at [we@n3n.org](mailto:we@n3n.org).
 
-Our heartfelt thanks,
+Thank you for joining us on this journey,
 
 The N3N Authors
 
 ## Issues
 
-### Security Vulnerablity
+### Security Vulnerability
 
-Anything above all, we are a cybersecurity organization and we do believe in the importance of finding vulnerablity and mitigating associated threats as quickly as possible. To report security vulnerablities in our software, please refer to our [security policy].
+First and foremost, as a cybersecurity organization, we prioritize the discovery and swift mitigation of vulnerabilities and associated threats. To report security vulnerabilities in our software, please consult our [security policy].
 
-Also at Knytx Labs, We're hiring full-time, aptly skilled hackers to work with us! Check out our current job postings [here](https://knytx.com/jobs).
+By the way, at Knytx Labs, we're actively seeking full-time, highly skilled hackers to join our team! Explore our current job opportunities [here](https://knytx.com/jobs).
 
 ### Feature Requests
 
-If you have ideas or how to improve our projects, you can suggest features by opening a GitHub issue. Make sure to include details about the feature or change, and describe any uses cases it would enable.
+Have ideas on how to enhance our projects? Feel free to propose features by opening a GitHub issue. Be sure to provide details about the feature or change and describe any use cases it would enable.
 
-Feature requests will be tagged as `enhancement` and their status will be updated in the comments of the issue.
+We'll tag feature requests as `enhancement`, and their status will be regularly updated in the issue comments.
 
 ### Bugs
 
-When reporting a bug or unexpected behaviour in a project, make sure your issue describes steps to reproduce the behaviour, including the platform you were using, what steps you took, and any error messages.
+When reporting a bug or unexpected behavior in a project, ensure your issue includes detailed steps to reproduce the behavior. Specify the platform you were using, the steps you took, and any error messages encountered.
 
-Reproducible bugs will be tagged as `bug` and their status will be updated in the comments of the issue.
+Reproducible bugs will be tagged as `bug`, and we'll keep you informed about their status through the comments on the issue.
 
 ### Wontfix
 
-Issues will be closed and tagged as `wontfix` if we decide that we do not wish to implement it, usually due to being misaligned with the project vision or out of scope. We will comment on the issue with more detailed reasoning.
+Issues that won't be addressed will be closed and tagged as `wontfix`. This decision is typically made if an issue is misaligned with the project vision or falls outside the project's scope. We'll provide detailed reasoning in the issue comments.
 
 ## Contribution Workflow
 
@@ -52,16 +52,16 @@ You can comment on the issue to let others know you're interested in working on 
 
 1. Fork [the repository].
 
-2. Choose the version for which you want to develop. The code is divided in the following branches:
+2. Choose the version for which you want to develop. The code is divided into the following branches:
    a. master: Current stable version.
    b. series/X.Y: There will be a series branch for each major version release (1.0, 2.0). The master branch will be in sync with the latest series branch.
    c. development: Unstable branch where the development for the next minor or major release is happening.
    d. feature/X: These are branches dealing with a specific bug or feature that is not yet ready to be merged.
-   e. The master and series branches are stable and not braking changes must be submitted or merged. The development and feature branches are unstable and should not be used in production.
+   e. The master and series branches are stable, and no breaking changes must be submitted or merged. The development and feature branches are unstable and should not be used in production.
 
 3. Start making your changes in your own separate branch. Ensure that there are no build errors by running the project with your changes locally.
 
-4. Write a test which shows that the bug was fixed or that the feature works as expected.
+4. Write a test that shows that the bug was fixed or that the feature works as expected.
 
 5. Sign your work. Your signature certifies your submission according to the articles of the [Developer Certificate of Origin](/DCO). The sign-off should be in the form:
 
@@ -69,7 +69,7 @@ You can comment on the issue to let others know you're interested in working on 
    Signed-off-by: John Doe <john.doe@example.com>
    ```
 
-   We recommend you, to use your real name and email for signing commits. This helps in showing your contributions to everyone. If you set your user.name and user.email git configs, you can sign your commit automatically with git commit -s.
+   We recommend you use your real name and email for signing commits. This helps in showing your contributions to everyone. If you set your user.name and user.email git configs, you can sign your commit automatically with git commit -s.
 
 6. Open a pull request with a name and description of what you did. You can read more about working with pull requests on GitHub [here](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork).
 
@@ -77,31 +77,24 @@ You can comment on the issue to let others know you're interested in working on 
 
 ## Code Guidelines
 
-### Rust
+## Language-Specific Standards
 
-You can read about our standards and recommendations for working with Rust [here](https://n3n.org/community/guidelines/rust).
-
-### Python
-
-We recommend following [PEP8 conventions](https://www.python.org/dev/peps/pep-0008/) when working with Python modules.
-
-### JavaScript & TypeScript
-
-We use [Prettier](https://prettier.io/) with the default settings to auto-format our JavaScript and TypeScript code.
+- **Rust**: Review our standards [here](https://n3n.org/community/guidelines/rust).
+- **Python**: Follow [PEP8 conventions](https://www.python.org/dev/peps/pep-0008/).
+- **JavaScript & TypeScript**: We use [Prettier](https://prettier.io/) with default settings.
 
 ## Licensing
 
-Unless otherwise specified, all N3N open source projects shall comply with the Rust standard licensing model (MIT + Apache 2.0) and are thereby licensed under a dual license, allowing licensees to choose either MIT OR Apache-2.0 at their option.
+Unless otherwise specified, all N3N open source projects shall comply with the Rust standard licensing model (MIT + Apache 2.0) and are thereby licensed under a dual license, allowing licensees to choose either MIT OR Apache-2.0 at their discretion.
 
 ## Contributor Terms
 
-Thank you for your interest in this N3N open source project. By providing a contribution (new or modified code, other input, feedback or suggestions etc.) you agree to these Contributor Terms.
+Thank you for your interest in this N3N open source project. By providing a contribution (new or modified code, other input, feedback, or suggestions, etc.), you agree to these Contributor Terms.
 
 You confirm that each of your contributions has been created by you and that you are the copyright owner. You also confirm that you have the right to provide the contribution to us and that you do it under the Rust dual license model (MIT + Apache 2.0) unless specified.
 
-If you want to contribute something that is not your original creation, you may submit it to N3N community separately from any contribution, including details of its source and of any license or other restriction (such as related patents, trademarks, agreements etc.)
+If you want to contribute something that is not your original creation, you may submit it to the N3N community separately from any contribution, including details of its source and of any license or other restriction (such as related patents, trademarks, agreements, etc.).
 
-Please also note that our projects do follow our [community guidelines] to ensure that they are welcoming places for everyone to contribute. By participating in any of the N3N open source project, you agree to follow our [community guidelines]
+Please also note that our projects do follow our [community guidelines] to ensure that they are welcoming places for everyone to contribute. By participating in any of the N3N open source projects, you agree to follow our [community guidelines].
 
-[the repository]: ./
-[community guidelines]: ./CODE_OF_CONDUCT.md
+[community guidelines]: https://n3n.org/contrib-terms

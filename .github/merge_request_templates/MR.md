@@ -1,13 +1,13 @@
 ---
-name: Pull Request
+name: Merge Request
 about: Propose changes to the project
 
 ---
 
-### Pull Request Description
+### Merge Request Description
 
 **Summary:**
-Briefly describe the changes introduced by this pull request.
+Briefly describe the changes introduced by this merge request.
 
 **Related Issue:**
 Closes #[issue number]
@@ -23,7 +23,7 @@ Closes #[issue number]
 
 ### Screenshots or Additional Information (if applicable)
 
-Add any screenshots or additional information that may help in reviewing the pull request.
+Add any screenshots or additional information that may help in reviewing the merge request.
 
 ### Environment
 
@@ -50,7 +50,7 @@ Assign reviewers to ensure timely and effective review.
 
 ### Additional Notes
 
-Add any additional notes or context that may be relevant to the pull request.
+Add any additional notes or context that may be relevant to the merge request.
 
 **Checklist for Reviewers**
 

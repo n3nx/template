@@ -1,0 +1,36 @@
+stages:
+  - build
+  - test
+  - deploy
+
+variables:
+  # Define your environment variables here
+  # For example:
+  POSTGRES_DB: my_database
+  POSTGRES_USER: my_user
+  POSTGRES_PASSWORD: my_password
+
+before_script:
+  # Install dependencies, setup environment, etc.
+  - apt-get update -qy
+  - apt-get install -y nodejs npm
+  - npm install -g my-package
+
+build_job:
+  stage: build
+  script:
+    - echo "Building the project..."
+    # Add commands to build your project
+
+test_job:
+  stage: test
+  script:
+    - echo "Running tests..."
+    # Add commands to run tests
+
+deploy_job:
+  stage: deploy
+  script:
+    - echo "Deploying the project..."
+    # Add commands to deploy your project
+# Add more jobs as needed
